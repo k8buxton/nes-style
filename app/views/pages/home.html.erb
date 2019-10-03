@@ -1,2 +1,31 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render 'shared/homepage_carousel' %>
+
+<div class="container-fluid">
+  <div class="row display-flex flex-direction-column-mobile" style="position: relative;">
+    <div class="responsive-larger-container col-xs-12 col-sm-8">
+      <div class="align-self-center">
+        <a><span>COLLECTION </span>WOMEN</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 offset-sm-6 p-0" style="position: absolute;">
+      <div class="container-image-div">
+        <%= image_tag 'blue-jeans-close-up-cloth-603022.jpg', class: "img-responsive img-right-padding" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row display-flex flex-direction-column-mobile" style="position: relative;">
+    <div class="col-xs-12 col-sm-6 p-0" style="position: absolute; z-index:10000;">
+      <div class="container-image-div">
+        <%= image_tag 'blue-jeans-close-up-cloth-603022.jpg', class: "img-responsive img-left-padding" %>
+      </div>
+    </div>
+    <div class="responsive-larger-container offset-sm-4 col-xs-12 col-sm-8">
+      <div class="align-self-center">
+        <a><span>COLLECTION </span>WOMEN</a>
+      </div>
+    </div>
+  </div>
+</div>
