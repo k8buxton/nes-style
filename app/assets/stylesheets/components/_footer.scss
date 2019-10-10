@@ -1,0 +1,16 @@
+.footer {
+  align-items: center;
+  height: 250px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-cities {
+  display: flex;
+  align-items: center;
+}
+.footer-cities p {
+  color: black;
+  opacity: 0.15;
+  font-size: 18px;
+  padding: 0px 10px;
+}
