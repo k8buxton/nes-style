@@ -1,6 +1,15 @@
 // Specific CSS for your home-page
 p, a {
-  font-family: 'Raleway';
+  font-family: 'Lato';
+  margin: 0px;
+  font-size: 13px;
+}
+h3 {
+  font-family: 'Lato';
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1.5px;
 }
 .banner {
   background-size: cover;
@@ -17,8 +26,12 @@ p, a {
     height: 40px;
   }
 }
+header {
+  // margin-top: -116px;
+}
 .carousel-item {
   height: calc(100vh - 111px);
+  // height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -73,9 +86,9 @@ p, a {
 }
 .home-container a {
   border-bottom: 1px solid black;
-  font-size: 16px;
+  font-size: 14px;
   padding-bottom: 5px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 .link-right-margin {
   @media (min-width: 992px) {
@@ -89,7 +102,8 @@ p, a {
 }
 .responsive-larger-container {
   height: 600px;
-  background-color: #fa9473;
+  // background-color: #fa9473;
+  background-color: #cdc098;
   display: flex;
   @media (min-width: 769px) and (max-width: 991px) {
     height: 475px;
@@ -101,7 +115,7 @@ p, a {
     height: 200px;
   }
   span {
-    font-weight: 700;
+    font-weight: 900;
   }
 }
 .responsive-container-right {
@@ -143,6 +157,8 @@ p, a {
   max-width: 100%;
   p {
     margin: 0px 24px;
+    font-weight: 300;
+    line-height: 22px;
   }
 }
 .container .card {
@@ -150,6 +166,12 @@ p, a {
   // padding: 15px;
 }
 .card {
+  @media (max-width: 991px) {
+    padding: 30px 15px;
+  }
+  @media (min-width: 991px) and (max-width: 1200px) {
+    padding: 60px 30px;
+  }
   padding: 100px 60px;
   border: none;
   border-radius: 0px;
