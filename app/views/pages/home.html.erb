@@ -1,64 +1,31 @@
 <%= render 'shared/homepage_carousel' %>
 
-<div class="home-container">
-  <div class="row" style="position: relative;">
-    <div class="responsive-larger-container col-xs-12 col-sm-8">
-      <div class="align-self-center margin-dynamic-1">
-        <a class="link-left-margin"><span>COLLECTION </span>WOMEN</a>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 offset-sm-6 p-0 d-none d-sm-block" style="position: absolute;">
-      <div class="container-image-div">
-        <%= image_tag 'blue-jeans-close-up-cloth-603022.jpg', class: "img-responsive img-right-padding" %>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="d-block d-sm-none">
-  <%= image_tag 'blue-jeans-close-up-cloth-603022.jpg', class: "img-responsive" %>
-</div>
-
-<div class="home-container">
-  <div class="row" style="position: relative;">
-    <div class="col-xs-12 col-sm-6 p-0 d-none d-sm-block home-z-index" style="position: absolute;">
-      <div class="container-image-div">
-        <%= image_tag 'blue-jeans-close-up-cloth-603022.jpg', class: "img-responsive img-left-padding" %>
-      </div>
-    </div>
-    <div class="responsive-larger-container responsive-container-right offset-sm-4 col-xs-12 col-sm-8">
-      <div></div>
-      <div class="align-self-center margin-dynamic-2">
-        <a class="link-right-margin"><span>COLLECTION </span>MEN</a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="d-block d-sm-none">
-  <%= image_tag 'blue-jeans-close-up-cloth-603022.jpg', class: "img-responsive" %>
-</div>
-
-<div class="container" style="position: relative; margin-top: 100px;">
+<div class="image-container mt-3">
+  <h3 class="mb-5">WOMENS</h3>
   <div class="row">
-    <div class="col-4 text-center" style="padding: 0px 30px 0px 0px">
-      <div class="card" style="background-color: #fa9473;">
-        <h3>Nes Style Limited</h3>
-        <p>Quality never goes out of style. Texture your soul with stunning quality fashion. Design fused with aristocracy for the smart style lover. We design advantage to high tone of your style & move you to the unique trend.</p>
-      </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag "hero", class: "img-fluid"%>
     </div>
-    <div class="col-4 text-center" style="padding: 0px 15px;">
-      <div class="card" style="background-color: #EBC5B0;">
-        <h3>Design Studio</h3>
-        <p>We design to excellence your passion. High tone your style with our designed jeans to represent your elegance & special individuality.</p>
-      </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag "hero", class: "img-fluid"%>
     </div>
-    <div class="col-4 text-center" style="padding: 0px 0px 0px 30px;">
-      <div class="card" style="background-color: #fa9473;">
-        <h3>Production</h3>
-        <p>We are the most modern, automatic garmenting and the fastest growing Jeans company in Bangladesh. Currently producing 1.1 million pairs of jeans per month, which will increase to 3.3 million pairs by Dec 2017.</p>
-      </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag "hero", class: "img-fluid"%>
     </div>
   </div>
 </div>
-<div style="position: absolute; width: 100vw; margin-bottom: 100px;">
-  <div style="width: 0px; height: 0px; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 30px solid #EBC5B0; margin: auto;"></div>
+
+<div class="image-container">
+  <h3 class="mb-5">MENS</h3>
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <%= image_tag "hero", class: "img-fluid"%>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <%= image_tag "hero", class: "img-fluid"%>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <%= image_tag "hero", class: "img-fluid"%>
+    </div>
+  </div>
 </div>
