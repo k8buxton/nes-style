@@ -37,10 +37,12 @@ h3 {
         height: 100%;
         object-fit: cover;
         width: 100%;
-        // object-position: 50% 50%;
         @media (max-width: 768px) {
           margin: auto;
         }
+      }
+      .position-top {
+        object-position: 50% 0%;
       }
     }
   }
