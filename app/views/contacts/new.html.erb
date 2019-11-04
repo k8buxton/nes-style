@@ -1,9 +1,9 @@
-<div class="top-banner" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('hero.png');">
+<div class="top-banner" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572889638/hero.png');">
   <h1>Contact Us</h1>
 </div>
 <div class="container contact-container">
   <div class="row">
-    <div class="col-sm-12 col-md-6 col-lg-4 offset-lg-2">
+    <div class="col-10 offset-1 col-md-6 offset-md-0 col-lg-4 offset-lg-2">
       <h3 class="mb-4">ADDRESS</h3>
       <p>4th Floor</p>
       <p>73 New Bond Street</p>
@@ -13,7 +13,7 @@
       <p>Phone: <a href="tel:00447740911377">+44 (0)7740 911 377</a></p>
       <p>Email: <a href="mailto:zubair.shyan@nes-style.co.uk" class="">zubair.shyan@nes-style.co.uk</a></p>
     </div>
-    <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="col-10 offset-1 col-md-6 offset-md-0 col-lg-4 margin-top-sm-device">
       <h3 class="mb-4">LEAVE A MESSAGE</h3>
       <%= simple_form_for @contact, :html => {:class => 'form-horizontal', autocomplete: 'off' } do |f| %>
         <%= f.input :name, :required => true %>

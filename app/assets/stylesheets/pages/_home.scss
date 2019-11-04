@@ -14,7 +14,8 @@ h3 {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 4px;
+  letter-spacing: 3.5px;
+  line-height: 24px;
 }
 .image-container {
   margin: 0 32px 160px 32px;
@@ -24,6 +25,10 @@ h3 {
   .row {
     div {
       height: 200px;
+      @media (min-width: 992px) {
+        height: 250px;
+        display: flex;
+      }
       padding: 4px;
       @media (max-width: 768px) {
         display: flex;
