@@ -45,3 +45,13 @@
     font-weight: 300;
   }
 }
+.email-confirm {
+  height: calc(100vh - 217px);
+  h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: auto 80px;
+    line-height: 25px;
+  }
+}
