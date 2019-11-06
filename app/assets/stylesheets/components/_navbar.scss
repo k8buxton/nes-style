@@ -7,7 +7,10 @@
   }
   .navbar-logo {
     margin: 16px 0 16px 50px;
-    height: 60px;
+    height: 50px;
+    @media (max-width: 768px) {
+      margin: 16px 0 16px 20px;
+    }
   }
 }
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -40,6 +43,9 @@
 .navbar-light .navbar-toggler {
   border: none;
   outline: 0;
+  @media (min-width: 769px) {
+    margin-right: 50px;
+  }
 }
 .sticky-top {
     transition: all 0.25s ease-in;
