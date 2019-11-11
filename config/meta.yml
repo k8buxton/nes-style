@@ -1,0 +1,5 @@
+meta_product_name: "Nes Style Limited"
+meta_title: "Nes Style Limited"
+meta_description: "Denim, clothing and accessories company based in London and Dhaka."
+meta_image: "nes-style-meta.png" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
