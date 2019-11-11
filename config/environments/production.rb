@@ -92,7 +92,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config_action_mailer_default_url_options = { host: 'https://nes-style.herokuapp.com/'}
+  config_action_mailer_default_url_options = { host: 'http://www.nesstyle.co.uk/'}
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
@@ -101,7 +101,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name => ENV['SENDGRID_USERNAME'],
     :password => ENV['SENDGRID_PASSWORD'],
-    :domain => 'heroku.com',
+    :domain => 'nesstyle.co.uk',
     :enable_starttls_auto => true
   }
 end
