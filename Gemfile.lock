@@ -95,6 +95,9 @@ GEM
       net-imap
       net-pop
       net-smtp
+    mail_form (1.9.0)
+      actionmailer (>= 5.2)
+      activemodel (>= 5.2)
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
@@ -219,6 +222,7 @@ DEPENDENCIES
   font-awesome-sass (~> 5.6.1)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
+  mail_form (~> 1.5, >= 1.5.1)
   net-http
   pg (>= 0.18, < 2.0)
   pry-byebug
